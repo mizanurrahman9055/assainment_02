@@ -1,3 +1,350 @@
-.body{
-    background: #d61818;
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+ .font-Quicksand{
+    font-family: Quicksand;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+ }  
+ .header-class{
+    position: absolute;
+    width: 1440px;
+    height: 102px;
+    
+ }
+ .nav-header{
+    
+    display: flex;
+    direction: row;
+    align-items: center;
+    gap: 186px;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+
+ }
+ .ul-list{
+    display: flex;
+    direction: row;
+    gap: 25px;
+
+ }
+ .li-home{
+    color: aqua;
+ }
+ .li-about{
+    color: blue;
+ }
+ .li-facilities{
+    color: brown;
+ }
+ .li-admission{
+    color: chocolate;
+ }
+ .h3-logo{
+    
+   display: flex;
+   flex-direction: row;
+ }
+ .nav-btn{
+    position: static;
+    width: 197px;
+    height: 50px; 
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 8px;
+    background: rgb(254, 163, 1);
+    color: white;
+    border: none;
+ }
+ .div-banner{
+    display: flex;
+    direction: row;
+    align-items: center;
+   
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+ }
+ .banner-btn{
+    position: static;
+    width: 197px;
+    height: 50px; 
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 10px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    border: none;
+ }
+ .h4-banner{
+position: static;
+width: 640px;
+height: 183px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+font-size: 56px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+ }
+ .p-banner{
+position: static;
+width: 640px;
+height: 50px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+gap: 24;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 70px;
+ }
+ /* section card */
+ .section-card{
+position: absolute;
+width: 1440px;
+height: 879px;
+left: 0;
+top: 698px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 80;
+padding: 60px 0px 60px 0px;
+background-color: beige;
+ }
+ .st-card{
+display: flex;
+flex-direction: row;
+position: absolute;
+width: 1160px;
+height: 481.5px;
+left: 140px;
+right: -140px;
+top: 197.5px;
+bottom: -197.5px;
+gap: 20px;
+ }
+ .card-1{
+   
+position: relative;
+width: 367.8px;
+height: 476.78px;
+box-sizing: border-box;
+border: 0.94px solid rgb(222, 245, 255);
+border-radius: 18.86px;
+display: grid;
+align-items: center;
+text-align: center;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+ .card-2{
+  
+position: relative;
+width: 367.8px;
+height: 481.5px;
+box-sizing: border-box;
+border: 0.94px solid rgb(255, 244, 220);
+border-radius: 18.86px;
+display: grid;
+align-items: center;
+text-align: center;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+ .card-3{
+   
+position: relative;
+width: 367.8px;
+height: 476.78px;
+box-sizing: border-box;
+border: 0.94px solid rgb(242, 232, 255);
+border-radius: 18.86px;
+display: grid;
+align-items: center;
+text-align: center;
+box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+ }
+ .btn-card{
+ border: none;
+ color: rgb(6, 220, 149);
+ background-color: none;
+ 
+ }
+ .btn-card-1{
+   border: none;
+   color: rgb(231, 91, 4);
+   background-color: none;
+   
+   }
+.btn-card-2{
+      border: none;
+      color: rgb(6, 234, 63);
+      background-color: none;
+      
+      }
+.img-icon{
+   display: flex;
+   margin-top: 600px;
+   gap: 0px;
+
 }
+.cl-stories{
+   
+position: absolute;
+width: 1440px;
+height: 1018.02px;
+left: 0;
+top: 1554px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 65px;
+padding: 60px 0px 60px 0px;
+background: url(image),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.teams{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.team-img-container{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 24px;
+}
+.story-card-1{
+   
+position: relative;
+width: 540.27px;
+height: 630.52px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.btn-story-1{
+   
+position: absolute;
+width: 174.51px;
+height: 47.93px;
+left: 38.35px;
+top: 314.14px;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+}
+.story-card-2{
+   
+position: relative;
+width: 290.69px;
+height: 301.61px;
+border-radius: 16px;
+
+background: rgb(255, 255, 255);
+}
+.btn-story-2{
+ 
+position: absolute;
+width: 174.51px;
+height: 38.35px;
+left: 38.35px;
+top: 157.81px;
+color: white;
+border-radius: 47.93px;
+background: rgb(149, 178, 38);
+}
+.story-card-3{
+   
+   position: relative;
+   width: 290.69px;
+   height: 301.61px;
+   border-radius: 16px;
+   
+   background: rgb(255, 255, 255);
+   }
+   .btn-story-3{
+ 
+      position: absolute;
+      width: 174.51px;
+      height: 38.35px;
+      left: 38.35px;
+      top: 157.81px;
+      color: white;
+      border-radius: 47.93px;
+      background: rgb(93, 88, 240);
+      }
+ .story-card-4{
+   
+         position: relative;
+         width: 290.69px;
+         height: 301.61px;
+         border-radius: 16px;
+         
+         background: rgb(255, 255, 255);
+         }
+   .btn-story-4{
+ 
+            position: absolute;
+            width: 174.51px;
+            height: 38.35px;
+            left: 38.35px;
+            top: 157.81px;
+            color: white;
+            border-radius: 47.93px;
+            background: rgb(14, 129, 196);
+            }
+
+   .story-card-5{
+   
+            position: relative;
+            width: 290.69px;
+            height: 301.61px;
+            border-radius: 16px;
+            
+            background: rgb(255, 255, 255);
+            }
+   .btn-story-5{
+ 
+               position: absolute;
+               width: 174.51px;
+               height: 38.35px;
+               left: 38.35px;
+               top: 157.81px;
+               border-radius: 47.93px;
+               background: rgb(207, 22, 213);
+               color: white;
+               }
+
