@@ -26,7 +26,7 @@
     display: flex;
     direction: row;
     gap: 25px;
-
+    list-style: none;
  }
  .li-home{
     color: aqua;
@@ -38,7 +38,7 @@
     color: brown;
  }
  .li-admission{
-    color: chocolate;
+    color: rgb(22, 21, 21);
  }
  .h3-logo{
     
@@ -347,4 +347,71 @@ background: rgb(149, 178, 38);
                background: rgb(207, 22, 213);
                color: white;
                }
+   .view-btn{
+      position: static;
+    width: 197px;
+    height: 50px; 
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: black;
+    color: white;
+    border: none;
+   }
+.main-footer{
+   margin-top: 80px;
+position: absolute;
+width: 1439px;
+height: 519px;
+left: 1px;
+top: 2572px;
+background: rgb(1, 172, 253);
+}
+.imge-container{
+   display: flex;
+   flex-direction: row;
+}
+.row-footer{
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+   width: 1070.91px;
+   height: 222px;
+   left: 141px;
+   right: 228.09px;
+   top: 150px;
+   bottom: 175px;
+   align-items: center;
+   justify-content: end;
+  
+}
+.width-footer{
+   display: grid;
+   position: absolute;
+   width: 400px;
+   height: 120px;
+   left: 148px;
+    top: 50px;
+}
+.about-footer{
+   position: absolute;
+   width: 200px;
+   height: 120px;
+   left: 650px;
+    top: 50px;
+    display: grid;
+    gap: 2px;
+    list-style: none;
+}
+.icon-container{
+   position: absolute;
+   top: 50px;
+    gap: 5px;
+}
+
 
